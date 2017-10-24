@@ -51,6 +51,11 @@ ex: var listanumeros = [1,2,3,4,5,6];
 no lugar de 
 var listanumeros = new Array(1,2,3,4,5,6);
 
+8- CommonJS é uma forma de definir os módulos com a ajuda de um objeto, que define o conteúdo do módulo. 
+	CommonJs é uma API com o objetivo de agrupar as necessidades de diversas aplicações javascript em uma única API, que funcione em diversos ambientes e interpretadores. Criando o conceito de se módulos que façam essas funções. E estes módulos podem ser carregados assincronamente com ferramentas AMD.
+	CommonJS específica que você precisa ter uma função para buscar dependências, umas variáveis de exportações ​​para exportar o conteúdo do módulo e um identificador do módulo que é usado para exigir as dependências. CommonJS tem várias implementações, por exemplo Node.js.
+
+
 9- AngularJS: é um framework JavaScript, uma biblioteca escrita em baseada em JavaScript, distribuído como um arquivo JavaScript, e pode ser adicionado em uma página com: <script srv=”https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js”></script> 
 A diretiva ng-app define que a aplicação é feita com AngularJS, a diretiva ng-model liga o valor de controle do HTML (input, select, textarea) para um dado da aplicação.
 A diretiva ng-bind liga o dado da aplicação para o view do HTML.
